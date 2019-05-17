@@ -2,19 +2,19 @@ import React, {Component} from 'react';
 import {Menu, Icon} from 'antd';
 import {Link} from 'react-router-dom'
 
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
+// const SubMenu = Menu.SubMenu;
+// const MenuItemGroup = Menu.ItemGroup;
 
 class LeftMenu extends Component {
     constructor(){
         super();
         this.state = {
             menu : [
-                {url: '/home',name:'Home'},
-                {url: '/profile',name:'Profile'},
-                {url: '/portofolio',name:'Portofolio'},
-                {url: '/contact',name:'Contact'},
-            ]
+                {url: '/home',name:'Home',icons:'home'},
+                {url: '/profile',name:'Profile',icons:'profile'},
+                {url: '/portofolio',name:'Portofolio',icons:'reconciliation'},
+                {url: '/contact',name:'Contact',icons:'contacts'},
+            ],
         }
     }
 
@@ -24,7 +24,9 @@ class LeftMenu extends Component {
                 {this.state.menu.map((data) => {
                     return(
                         <Menu.Item key={data.name}>
-                            <Link to={data.url}>{data.name}</Link>
+                            <Link to={data.url}>
+                                <Icon type={data.icons} theme="twoTone"/> {data.name}
+                            </Link>
                         </Menu.Item>
                     )
                 })}
