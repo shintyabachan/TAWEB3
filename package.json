@@ -2,7 +2,7 @@
   "name": "spaweb3",
   "version": "0.1.0",
   "private": true,
-  "homepage:": "https://shintyabachan/github.io/TAWEB3",
+  "homepage": "https://shintyabachan.github.io/TAWEB3",
   "dependencies": {
     "antd": "^3.18.1",
     "react": "^16.8.6",
