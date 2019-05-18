@@ -19,7 +19,7 @@ class Profile extends Component {
                  <Row>
                     <Col xs={12}>
                         <Row>
-                            <img src="assets/images/profile/kambing.png" style={{objectFit:"cover",width:"100%"}}/>
+                            <img src="assets/images/profile/sally.png" style={{objectFit:"cover",width:"100%"}}/>
                         </Row>
                     </Col>
                     <Col xs={12}>
