@@ -5,7 +5,7 @@ class Portofolio extends Component {
     render() {
         return (
             <div>
-                <h2>Halaman Portofolio</h2>
+                <h2>PORTOFOLIO</h2>
                 <hr/>
                 <br/>
                 <MyCard/>

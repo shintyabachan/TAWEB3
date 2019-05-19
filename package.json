@@ -5,6 +5,7 @@
   "homepage": "https://shintyabachan.github.io/TAWEB3",
   "dependencies": {
     "antd": "^3.18.1",
+    "google-map-react": "^1.1.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",

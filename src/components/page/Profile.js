@@ -38,7 +38,8 @@ class Profile extends Component {
                                     </List.Item>
                                 )}
                             />
-                            <Col xs><Title level={4}>uyetfsbjhggsefffdnmb</Title></Col>
+                            <p/>
+                            <Col xs><Title level={4}>Description</Title></Col>
                             <Col xs>dfjgyerbgnsbcausdwwhjndbcysgywbkjnkdkjs</Col>
                         </Row>
                     </Col>
