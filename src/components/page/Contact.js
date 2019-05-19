@@ -19,8 +19,8 @@ class Kontak extends Component {
                         <Row style={{ margin: '16px 16px'}}>
                             <Card title="C O N T A C T" bordered={false} style={{ width: 300 }}>
                             <p>Nama : Shintya Devi Bachan</p>
-                            <p>No &nbsp; &nbsp;&nbsp; : +62895432456433</p>
-                            <p>Email &nbsp; : icinbachan15@gmail.com</p>
+                            <p>No &nbsp; &nbsp;&nbsp; : +62 852-2859-9018</p>
+                            <p>Email&nbsp;: icinbachan15@gmail.com</p>
                             <Form onSubmit={this.handleSubmit} className="login-form">
                                 <Form.Item>
                                     <Input 
